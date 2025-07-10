@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CSharpTrainingCamp301.DataAccessLayer.Abstract
 {
-    public interface ICaregoryDal : IGenericDal<Category>
+    public interface ICategoryDal : IGenericDal<Category>
     {
     }
 }

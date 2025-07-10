@@ -52,7 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IAdminDal.cs" />
-    <Compile Include="Abstract\ICaregoryDal.cs" />
+    <Compile Include="Abstract\ICategoryDal.cs" />
     <Compile Include="Abstract\ICustomerDal.cs" />
     <Compile Include="Abstract\IGenericDal.cs" />
     <Compile Include="Abstract\IOrderDal.cs" />
