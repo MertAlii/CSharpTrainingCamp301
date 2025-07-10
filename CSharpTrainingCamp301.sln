@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTrainingCamp301.Busin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTrainingCamp301.PresentationLayer", "CSharpTrainingCamp301.PresentationLayer\CSharpTrainingCamp301.PresentationLayer.csproj", "{B66BDDE4-FBB2-43BE-8FB9-8C763473B5D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTrainingCamp301.EFProject", "CSharpTrainingCamp301.EFProject\CSharpTrainingCamp301.EFProject.csproj", "{0AFAEB8E-25C0-4A0D-895F-69AD6031C40F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B66BDDE4-FBB2-43BE-8FB9-8C763473B5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B66BDDE4-FBB2-43BE-8FB9-8C763473B5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B66BDDE4-FBB2-43BE-8FB9-8C763473B5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AFAEB8E-25C0-4A0D-895F-69AD6031C40F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AFAEB8E-25C0-4A0D-895F-69AD6031C40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AFAEB8E-25C0-4A0D-895F-69AD6031C40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AFAEB8E-25C0-4A0D-895F-69AD6031C40F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
