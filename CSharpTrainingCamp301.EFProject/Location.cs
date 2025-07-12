@@ -20,7 +20,7 @@ namespace CSharpTrainingCamp301.EFProject
         public Nullable<byte> Capacity { get; set; }
         public Nullable<decimal> Price { get; set; }
         public string DayNight { get; set; }
-        public int GuideId { get; set; }
+        public Nullable<int> GuideId { get; set; }
     
         public virtual Guide Guide { get; set; }
     }

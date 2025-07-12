@@ -13,10 +13,10 @@ namespace CSharpTrainingCamp301.EFProject
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class EgitimKampiEfTravelDbEntities : DbContext
+    public partial class EgitimKampiEfTravelNewDbEntities : DbContext
     {
-        public EgitimKampiEfTravelDbEntities()
-            : base("name=EgitimKampiEfTravelDbEntities")
+        public EgitimKampiEfTravelNewDbEntities()
+            : base("name=EgitimKampiEfTravelNewDbEntities")
         {
         }
     
@@ -29,5 +29,6 @@ namespace CSharpTrainingCamp301.EFProject
         public virtual DbSet<Guide> Guide { get; set; }
         public virtual DbSet<Location> Location { get; set; }
         public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
+        public virtual DbSet<Admin> Admin { get; set; }
     }
 }
