@@ -9,5 +9,6 @@ namespace CSharpTrainingCamp301.BusinessLayer.Abstract
 {
     public interface IProductService: IGenericService<Product>
     {
+        List<Object> TGetProductsWithCategory();
     }
 }
