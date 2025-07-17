@@ -57,4 +57,6 @@ namespace CSharpTrainingCamp301.BusinessLayer.Concrete
                 // Hata mesajı ver
             }
         }
+
+    }
 }
