@@ -63,5 +63,10 @@ namespace CSharpTrainingCamp301.PresentationLayer
             dataGridView1.DataSource = values;
 
         }
+
+        private void FrmCategory_Load(object sender, EventArgs e)
+        {
+         
+        }
     }
 }
